@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 129.0.0.0,,,24-09-2024 23:05:35,24-09-2024 23:06:15,39.772s,PASSED
+,,,,,,,
+Test Cases/Login/TC001_Login_With_Valid_Credential,Chrome 129.0.0.0,User can login with valid credential,,24-09-2024 23:05:36,24-09-2024 23:05:44,8.791s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,24-09-2024 23:05:36,24-09-2024 23:05:37,1.474s,PASSED
+"setViewPortSize(1480, 1000)",Chrome 129.0.0.0,,,24-09-2024 23:05:37,24-09-2024 23:05:38,0.405s,PASSED
+navigateToUrl(baseUrl),Chrome 129.0.0.0,,,24-09-2024 23:05:38,24-09-2024 23:05:40,2.652s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/a_Make Appointment""))",Chrome 129.0.0.0,,,24-09-2024 23:05:40,24-09-2024 23:05:41,0.688s,PASSED
+"setText(findTestObject(""Object Repository/Objek_Login/input_Username_username""), findTestData(""Test Data Login"").getValue(1, 1))",Chrome 129.0.0.0,,,24-09-2024 23:05:41,24-09-2024 23:05:42,1.020s,PASSED
+"setText(findTestObject(""Object Repository/Objek_Login/input_Password_password""), findTestData(""Test Data Login"").getValue(2, 1))",Chrome 129.0.0.0,,,24-09-2024 23:05:42,24-09-2024 23:05:43,0.566s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/button_Login""))",Chrome 129.0.0.0,,,24-09-2024 23:05:43,24-09-2024 23:05:43,0.782s,PASSED
+"appointmentAppears = verifyElementPresent(findTestObject(""Object Repository/Objek_Login/h2_Make Appointment""), 0)",Chrome 129.0.0.0,,,24-09-2024 23:05:43,24-09-2024 23:05:44,0.480s,PASSED
+takeScreenshot(),Chrome 129.0.0.0,,,24-09-2024 23:05:44,24-09-2024 23:05:44,0.424s,PASSED
+if (appointmentAppears),Chrome 129.0.0.0,,,24-09-2024 23:05:44,24-09-2024 23:05:44,0.020s,PASSED
+,,,,,,,
+Test Cases/Login/TC002_Login_With_Invalid_Username,Chrome 129.0.0.0,User can't login with invalid credential,,24-09-2024 23:05:44,24-09-2024 23:05:52,7.730s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,24-09-2024 23:05:44,24-09-2024 23:05:45,0.746s,PASSED
+"setViewPortSize(1480, 1000)",Chrome 129.0.0.0,,,24-09-2024 23:05:45,24-09-2024 23:05:46,0.375s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,24-09-2024 23:05:46,24-09-2024 23:05:48,2.562s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/a_Make Appointment""))",Chrome 129.0.0.0,,,24-09-2024 23:05:48,24-09-2024 23:05:49,0.605s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/form_Demo account _b80bac""))",Chrome 129.0.0.0,,,24-09-2024 23:05:49,24-09-2024 23:05:49,0.493s,PASSED
+"setText(findTestObject(""Object Repository/Objek_Login/input_Username_username""), findTestData(""Test Data Login"").getValue(1, 2))",Chrome 129.0.0.0,,,24-09-2024 23:05:49,24-09-2024 23:05:50,0.557s,PASSED
+"setText(findTestObject(""Object Repository/Objek_Login/input_Password_password""), findTestData(""Test Data Login"").getValue(2, 2))",Chrome 129.0.0.0,,,24-09-2024 23:05:50,24-09-2024 23:05:50,0.541s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/button_Login""))",Chrome 129.0.0.0,,,24-09-2024 23:05:50,24-09-2024 23:05:51,0.803s,PASSED
+"notificationLoginFailed = verifyElementPresent(findTestObject(""Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5""), 0)",Chrome 129.0.0.0,,,24-09-2024 23:05:51,24-09-2024 23:05:52,0.456s,PASSED
+takeScreenshot(),Chrome 129.0.0.0,,,24-09-2024 23:05:52,24-09-2024 23:05:52,0.366s,PASSED
+if (notificationLoginFailed),Chrome 129.0.0.0,,,24-09-2024 23:05:52,24-09-2024 23:05:52,0.004s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,24-09-2024 23:05:52,24-09-2024 23:05:52,0.163s,PASSED
+,,,,,,,
+Test Cases/Login/TC003_Login_With_Invalid_Password,Chrome 129.0.0.0,User can't login with invalid credential,,24-09-2024 23:05:52,24-09-2024 23:05:59,7.312s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,24-09-2024 23:05:52,24-09-2024 23:05:53,0.603s,PASSED
+"setViewPortSize(1480, 1000)",Chrome 129.0.0.0,,,24-09-2024 23:05:53,24-09-2024 23:05:53,0.379s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,24-09-2024 23:05:53,24-09-2024 23:05:56,2.620s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/a_Make Appointment""))",Chrome 129.0.0.0,,,24-09-2024 23:05:56,24-09-2024 23:05:57,0.747s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/form_Demo account _b80bac""))",Chrome 129.0.0.0,,,24-09-2024 23:05:57,24-09-2024 23:05:57,0.275s,PASSED
+"setText(findTestObject(""Object Repository/Objek_Login/input_Username_username""), findTestData(""Test Data Login"").getValue(1, 3))",Chrome 129.0.0.0,,,24-09-2024 23:05:57,24-09-2024 23:05:57,0.550s,PASSED
+"setText(findTestObject(""Object Repository/Objek_Login/input_Password_password""), findTestData(""Test Data Login"").getValue(2, 3))",Chrome 129.0.0.0,,,24-09-2024 23:05:57,24-09-2024 23:05:58,0.537s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/button_Login""))",Chrome 129.0.0.0,,,24-09-2024 23:05:58,24-09-2024 23:05:59,0.811s,PASSED
+"notificationLoginFailed = verifyElementPresent(findTestObject(""Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5""), 0)",Chrome 129.0.0.0,,,24-09-2024 23:05:59,24-09-2024 23:05:59,0.257s,PASSED
+takeScreenshot(),Chrome 129.0.0.0,,,24-09-2024 23:05:59,24-09-2024 23:05:59,0.333s,PASSED
+if (notificationLoginFailed),Chrome 129.0.0.0,,,24-09-2024 23:05:59,24-09-2024 23:05:59,0.002s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,24-09-2024 23:05:59,24-09-2024 23:05:59,0.136s,PASSED
+,,,,,,,
+Test Cases/Login/TC004_Login_With_Empty_Username,Chrome 129.0.0.0,User can't login with invalid credential,,24-09-2024 23:05:59,24-09-2024 23:06:07,7.695s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,24-09-2024 23:05:59,24-09-2024 23:06:00,0.612s,PASSED
+"setViewPortSize(1480, 1000)",Chrome 129.0.0.0,,,24-09-2024 23:06:00,24-09-2024 23:06:00,0.380s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,24-09-2024 23:06:00,24-09-2024 23:06:03,2.501s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/a_Make Appointment""))",Chrome 129.0.0.0,,,24-09-2024 23:06:03,24-09-2024 23:06:04,0.624s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/form_Demo account _b80bac""))",Chrome 129.0.0.0,,,24-09-2024 23:06:04,24-09-2024 23:06:04,0.489s,PASSED
+"setText(findTestObject(""Object Repository/Objek_Login/input_Username_username""), findTestData(""Test Data Login"").getValue(1, 5))",Chrome 129.0.0.0,,,24-09-2024 23:06:04,24-09-2024 23:06:05,0.559s,PASSED
+"setText(findTestObject(""Object Repository/Objek_Login/input_Password_password""), findTestData(""Test Data Login"").getValue(2, 5))",Chrome 129.0.0.0,,,24-09-2024 23:06:05,24-09-2024 23:06:05,0.536s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/button_Login""))",Chrome 129.0.0.0,,,24-09-2024 23:06:05,24-09-2024 23:06:06,0.972s,PASSED
+"notificationLoginFailed = verifyElementPresent(findTestObject(""Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5""), 0)",Chrome 129.0.0.0,,,24-09-2024 23:06:06,24-09-2024 23:06:07,0.451s,PASSED
+takeScreenshot(),Chrome 129.0.0.0,,,24-09-2024 23:06:07,24-09-2024 23:06:07,0.347s,PASSED
+if (notificationLoginFailed),Chrome 129.0.0.0,,,24-09-2024 23:06:07,24-09-2024 23:06:07,0.002s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,24-09-2024 23:06:07,24-09-2024 23:06:07,0.165s,PASSED
+,,,,,,,
+Test Cases/Login/TC005_Login_With_Empty_Password,Chrome 129.0.0.0,User can't login with invalid credential,,24-09-2024 23:06:07,24-09-2024 23:06:15,8.106s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,24-09-2024 23:06:07,24-09-2024 23:06:08,0.595s,PASSED
+"setViewPortSize(1480, 1000)",Chrome 129.0.0.0,,,24-09-2024 23:06:08,24-09-2024 23:06:08,0.370s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,24-09-2024 23:06:08,24-09-2024 23:06:11,3.301s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/a_Make Appointment""))",Chrome 129.0.0.0,,,24-09-2024 23:06:11,24-09-2024 23:06:12,0.638s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/form_Demo account _b80bac""))",Chrome 129.0.0.0,,,24-09-2024 23:06:12,24-09-2024 23:06:13,0.482s,PASSED
+"setText(findTestObject(""Object Repository/Objek_Login/input_Username_username""), findTestData(""Test Data Login"").getValue(1, 4))",Chrome 129.0.0.0,,,24-09-2024 23:06:13,24-09-2024 23:06:13,0.581s,PASSED
+"setText(findTestObject(""Object Repository/Objek_Login/input_Password_password""), findTestData(""Test Data Login"").getValue(2, 4))",Chrome 129.0.0.0,,,24-09-2024 23:06:13,24-09-2024 23:06:14,0.528s,PASSED
+"click(findTestObject(""Object Repository/Objek_Login/button_Login""))",Chrome 129.0.0.0,,,24-09-2024 23:06:14,24-09-2024 23:06:14,0.754s,PASSED
+"notificationLoginFailed = verifyElementPresent(findTestObject(""Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5""), 0)",Chrome 129.0.0.0,,,24-09-2024 23:06:14,24-09-2024 23:06:15,0.262s,PASSED
+takeScreenshot(),Chrome 129.0.0.0,,,24-09-2024 23:06:15,24-09-2024 23:06:15,0.361s,PASSED
+if (notificationLoginFailed),Chrome 129.0.0.0,,,24-09-2024 23:06:15,24-09-2024 23:06:15,0.005s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,24-09-2024 23:06:15,24-09-2024 23:06:15,0.176s,PASSED

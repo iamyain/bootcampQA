@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="39.772" tests="5" failures="0" errors="0">
+   <testsuite name="Login" tests="5" failures="0" errors="0" time="39.772" skipped="0" timestamp="24-09-2024T23:05:35" hostname="user - Zain" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240924_230523\\Login\\20240924_230524"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240924_230523\\Login\\20240924_230524\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240924_230523\\Login\\20240924_230524\\1727193944703.png, C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240924_230523\\Login\\20240924_230524\\1727193952309.png, C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240924_230523\\Login\\20240924_230524\\1727193959686.png, C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240924_230523\\Login\\20240924_230524\\1727193967351.png, C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240924_230523\\Login\\20240924_230524\\1727193975430.png"/>
+         <property name="hostName" value="user - Zain"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.9.16"/>
+         <property name="sessionId" value="78d595129a1e6907a7c25edb985dbacf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC001_Login_With_Valid_Credential" time="8.791" classname="Test Cases/Login/TC001_Login_With_Valid_Credential" status="PASSED">
+         <system-out><![CDATA[24-09-2024T23:05:36 - [TEST_CASE][PASSED] - Test Cases/Login/TC001_Login_With_Valid_Credential: Test Cases/Login/TC001_Login_With_Valid_Credential
+
+24-09-2024T23:05:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-09-2024T23:05:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-09-2024T23:05:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T23:05:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T23:05:37 - [TEST_STEP][PASSED] - setViewPortSize(1480, 1000): Viewport is set to new size with width = 1480 and height = 1000
+
+24-09-2024T23:05:38 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1480 and height = 1000
+
+24-09-2024T23:05:38 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+24-09-2024T23:05:40 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+24-09-2024T23:05:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/a_Make Appointment")): Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+24-09-2024T23:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+24-09-2024T23:05:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Username_username"), findTestData("Test Data Login").getValue(1, 1)): Text 'John Doe' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+24-09-2024T23:05:42 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+24-09-2024T23:05:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Password_password"), findTestData("Test Data Login").getValue(2, 1)): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+24-09-2024T23:05:43 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+24-09-2024T23:05:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/button_Login")): Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+24-09-2024T23:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+24-09-2024T23:05:43 - [TEST_STEP][PASSED] - appointmentAppears = verifyElementPresent(findTestObject("Object Repository/Objek_Login/h2_Make Appointment"), 0): Object 'Object Repository/Objek_Login/h2_Make Appointment' is present
+
+24-09-2024T23:05:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T23:05:44 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Login/h2_Make Appointment' is present
+
+24-09-2024T23:05:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+24-09-2024T23:05:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240924_230523\\Login\\20240924_230524\\1727193944703.png]]
+
+24-09-2024T23:05:44 - [TEST_STEP][PASSED] - if (appointmentAppears): Login berhasil, melanjutkan ke proses appointment.
+
+24-09-2024T23:05:44 - [TEST_STEP][PASSED] - comment("Login berhasil, melanjutkan ke proses appointment."): Login berhasil, melanjutkan ke proses appointment.
+
+24-09-2024T23:05:44 - [MESSAGE][INFO] - Login berhasil, melanjutkan ke proses appointment.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC002_Login_With_Invalid_Username" time="7.73" classname="Test Cases/Login/TC002_Login_With_Invalid_Username" status="PASSED">
+         <system-out><![CDATA[24-09-2024T23:05:44 - [TEST_CASE][PASSED] - Test Cases/Login/TC002_Login_With_Invalid_Username: Test Cases/Login/TC002_Login_With_Invalid_Username
+
+24-09-2024T23:05:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-09-2024T23:05:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-09-2024T23:05:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-09-2024T23:05:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T23:05:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T23:05:45 - [TEST_STEP][PASSED] - setViewPortSize(1480, 1000): Viewport is set to new size with width = 1480 and height = 1000
+
+24-09-2024T23:05:46 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1480 and height = 1000
+
+24-09-2024T23:05:46 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+24-09-2024T23:05:48 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+24-09-2024T23:05:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/a_Make Appointment")): Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+24-09-2024T23:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+24-09-2024T23:05:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/form_Demo account _b80bac")): Object: 'Object Repository/Objek_Login/form_Demo account _b80bac' is clicked on
+
+24-09-2024T23:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/form_Demo account _b80bac' is clicked on
+
+24-09-2024T23:05:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Username_username"), findTestData("Test Data Login").getValue(1, 2)): Text 'John Does' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+24-09-2024T23:05:50 - [MESSAGE][PASSED] - Text 'John Does' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+24-09-2024T23:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Password_password"), findTestData("Test Data Login").getValue(2, 2)): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+24-09-2024T23:05:50 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+24-09-2024T23:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/button_Login")): Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+24-09-2024T23:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+24-09-2024T23:05:51 - [TEST_STEP][PASSED] - notificationLoginFailed = verifyElementPresent(findTestObject("Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5"), 0): Object 'Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5' is present
+
+24-09-2024T23:05:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T23:05:52 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5' is present
+
+24-09-2024T23:05:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+24-09-2024T23:05:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240924_230523\\Login\\20240924_230524\\1727193952309.png]]
+
+24-09-2024T23:05:52 - [TEST_STEP][PASSED] - if (notificationLoginFailed): Test berhasil. Notifikasi gagal login muncul
+
+24-09-2024T23:05:52 - [TEST_STEP][PASSED] - comment("Test berhasil. Notifikasi gagal login muncul"): Test berhasil. Notifikasi gagal login muncul
+
+24-09-2024T23:05:52 - [MESSAGE][INFO] - Test berhasil. Notifikasi gagal login muncul
+
+24-09-2024T23:05:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-09-2024T23:05:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC003_Login_With_Invalid_Password" time="7.312" classname="Test Cases/Login/TC003_Login_With_Invalid_Password" status="PASSED">
+         <system-out><![CDATA[24-09-2024T23:05:52 - [TEST_CASE][PASSED] - Test Cases/Login/TC003_Login_With_Invalid_Password: Test Cases/Login/TC003_Login_With_Invalid_Password
+
+24-09-2024T23:05:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-09-2024T23:05:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-09-2024T23:05:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T23:05:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T23:05:53 - [TEST_STEP][PASSED] - setViewPortSize(1480, 1000): Viewport is set to new size with width = 1480 and height = 1000
+
+24-09-2024T23:05:53 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1480 and height = 1000
+
+24-09-2024T23:05:53 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+24-09-2024T23:05:56 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+24-09-2024T23:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/a_Make Appointment")): Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+24-09-2024T23:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+24-09-2024T23:05:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/form_Demo account _b80bac")): Object: 'Object Repository/Objek_Login/form_Demo account _b80bac' is clicked on
+
+24-09-2024T23:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/form_Demo account _b80bac' is clicked on
+
+24-09-2024T23:05:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Username_username"), findTestData("Test Data Login").getValue(1, 3)): Text 'John Doe' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+24-09-2024T23:05:57 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+24-09-2024T23:05:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Password_password"), findTestData("Test Data Login").getValue(2, 3)): Text 'ThisIsNotAPasswor' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+24-09-2024T23:05:58 - [MESSAGE][PASSED] - Text 'ThisIsNotAPasswor' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+24-09-2024T23:05:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/button_Login")): Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+24-09-2024T23:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+24-09-2024T23:05:59 - [TEST_STEP][PASSED] - notificationLoginFailed = verifyElementPresent(findTestObject("Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5"), 0): Object 'Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5' is present
+
+24-09-2024T23:05:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T23:05:59 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5' is present
+
+24-09-2024T23:05:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+24-09-2024T23:05:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240924_230523\\Login\\20240924_230524\\1727193959686.png]]
+
+24-09-2024T23:05:59 - [TEST_STEP][PASSED] - if (notificationLoginFailed): Test berhasil. Notifikasi gagal login muncul
+
+24-09-2024T23:05:59 - [TEST_STEP][PASSED] - comment("Test berhasil. Notifikasi gagal login muncul"): Test berhasil. Notifikasi gagal login muncul
+
+24-09-2024T23:05:59 - [MESSAGE][INFO] - Test berhasil. Notifikasi gagal login muncul
+
+24-09-2024T23:05:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-09-2024T23:05:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC004_Login_With_Empty_Username" time="7.695" classname="Test Cases/Login/TC004_Login_With_Empty_Username" status="PASSED">
+         <system-out><![CDATA[24-09-2024T23:05:59 - [TEST_CASE][PASSED] - Test Cases/Login/TC004_Login_With_Empty_Username: Test Cases/Login/TC004_Login_With_Empty_Username
+
+24-09-2024T23:05:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-09-2024T23:05:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-09-2024T23:05:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T23:06:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T23:06:00 - [TEST_STEP][PASSED] - setViewPortSize(1480, 1000): Viewport is set to new size with width = 1480 and height = 1000
+
+24-09-2024T23:06:00 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1480 and height = 1000
+
+24-09-2024T23:06:00 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+24-09-2024T23:06:03 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+24-09-2024T23:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/a_Make Appointment")): Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+24-09-2024T23:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+24-09-2024T23:06:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/form_Demo account _b80bac")): Object: 'Object Repository/Objek_Login/form_Demo account _b80bac' is clicked on
+
+24-09-2024T23:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/form_Demo account _b80bac' is clicked on
+
+24-09-2024T23:06:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Username_username"), findTestData("Test Data Login").getValue(1, 5)): Text '' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+24-09-2024T23:06:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+24-09-2024T23:06:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Password_password"), findTestData("Test Data Login").getValue(2, 5)): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+24-09-2024T23:06:05 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+24-09-2024T23:06:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/button_Login")): Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+24-09-2024T23:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+24-09-2024T23:06:06 - [TEST_STEP][PASSED] - notificationLoginFailed = verifyElementPresent(findTestObject("Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5"), 0): Object 'Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5' is present
+
+24-09-2024T23:06:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T23:06:07 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5' is present
+
+24-09-2024T23:06:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+24-09-2024T23:06:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240924_230523\\Login\\20240924_230524\\1727193967351.png]]
+
+24-09-2024T23:06:07 - [TEST_STEP][PASSED] - if (notificationLoginFailed): Test berhasil. Notifikasi gagal login muncul
+
+24-09-2024T23:06:07 - [TEST_STEP][PASSED] - comment("Test berhasil. Notifikasi gagal login muncul"): Test berhasil. Notifikasi gagal login muncul
+
+24-09-2024T23:06:07 - [MESSAGE][INFO] - Test berhasil. Notifikasi gagal login muncul
+
+24-09-2024T23:06:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-09-2024T23:06:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC005_Login_With_Empty_Password" time="8.106" classname="Test Cases/Login/TC005_Login_With_Empty_Password" status="PASSED">
+         <system-out><![CDATA[24-09-2024T23:06:07 - [TEST_CASE][PASSED] - Test Cases/Login/TC005_Login_With_Empty_Password: Test Cases/Login/TC005_Login_With_Empty_Password
+
+24-09-2024T23:06:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-09-2024T23:06:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-09-2024T23:06:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T23:06:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-09-2024T23:06:08 - [TEST_STEP][PASSED] - setViewPortSize(1480, 1000): Viewport is set to new size with width = 1480 and height = 1000
+
+24-09-2024T23:06:08 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1480 and height = 1000
+
+24-09-2024T23:06:08 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+24-09-2024T23:06:11 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+24-09-2024T23:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/a_Make Appointment")): Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+24-09-2024T23:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+24-09-2024T23:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/form_Demo account _b80bac")): Object: 'Object Repository/Objek_Login/form_Demo account _b80bac' is clicked on
+
+24-09-2024T23:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/form_Demo account _b80bac' is clicked on
+
+24-09-2024T23:06:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Username_username"), findTestData("Test Data Login").getValue(1, 4)): Text 'John Doe' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+24-09-2024T23:06:13 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+24-09-2024T23:06:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Password_password"), findTestData("Test Data Login").getValue(2, 4)): Text '' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+24-09-2024T23:06:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+24-09-2024T23:06:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/button_Login")): Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+24-09-2024T23:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+24-09-2024T23:06:14 - [TEST_STEP][PASSED] - notificationLoginFailed = verifyElementPresent(findTestObject("Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5"), 0): Object 'Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5' is present
+
+24-09-2024T23:06:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T23:06:15 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Login/p_Login failed Please ensure the username a_eb55b5' is present
+
+24-09-2024T23:06:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+24-09-2024T23:06:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240924_230523\\Login\\20240924_230524\\1727193975430.png]]
+
+24-09-2024T23:06:15 - [TEST_STEP][PASSED] - if (notificationLoginFailed): Test berhasil. Notifikasi gagal login muncul
+
+24-09-2024T23:06:15 - [TEST_STEP][PASSED] - comment("Test berhasil. Notifikasi gagal login muncul"): Test berhasil. Notifikasi gagal login muncul
+
+24-09-2024T23:06:15 - [MESSAGE][INFO] - Test berhasil. Notifikasi gagal login muncul
+
+24-09-2024T23:06:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-09-2024T23:06:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-09-2024T23:05:35 - [TEST_SUITE][PASSED] - Login: Test Cases/Login/TC005_Login_With_Empty_Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

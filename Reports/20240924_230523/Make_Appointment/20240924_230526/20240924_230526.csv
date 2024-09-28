@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Make_Appointment,Chrome 129.0.0.0,,,24-09-2024 23:06:28,24-09-2024 23:06:53,25.178s,FAILED
+,,,,,,,
+Test Cases/Make_Appointment/TC006_Appointment_Success,Chrome 129.0.0.0,User can make appointment,,24-09-2024 23:06:28,24-09-2024 23:06:42,13.764s,PASSED
+"callTestCase(findTestCase(""Login/TC001_Login_With_Valid_Credential""), [:], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,24-09-2024 23:06:29,24-09-2024 23:06:37,8.215s,PASSED
+"selectOptionByValue(findTestObject(""Objek_Appointment/Page_CURA Healthcare Service/select_Facility""), facility, false)",Chrome 129.0.0.0,,,24-09-2024 23:06:37,24-09-2024 23:06:37,0.571s,PASSED
+"if (readmission.equals(""yes""))",Chrome 129.0.0.0,,,24-09-2024 23:06:37,24-09-2024 23:06:38,0.288s,PASSED
+"if (program.equals(""Medicaid""))",Chrome 129.0.0.0,,,24-09-2024 23:06:38,24-09-2024 23:06:38,0.282s,PASSED
+"setText(findTestObject(""Objek_Appointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), visit_date)",Chrome 129.0.0.0,,,24-09-2024 23:06:38,24-09-2024 23:06:39,0.578s,PASSED
+"setText(findTestObject(""Objek_Appointment/Page_CURA Healthcare Service/textarea_Comment_comment""), notes)",Chrome 129.0.0.0,,,24-09-2024 23:06:39,24-09-2024 23:06:39,0.761s,PASSED
+"click(findTestObject(""Object Repository/Objek_Appointment/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 129.0.0.0,,,24-09-2024 23:06:39,24-09-2024 23:06:41,2.051s,PASSED
+"verifyElementPresent(findTestObject(""Objek_Appointment/Page_CURA Healthcare Service/h2_Appointment Confirmation""), 10)",Chrome 129.0.0.0,,,24-09-2024 23:06:41,24-09-2024 23:06:42,0.254s,PASSED
+takeScreenshot(),Chrome 129.0.0.0,,,24-09-2024 23:06:42,24-09-2024 23:06:42,0.367s,PASSED
+,,,,,,,
+Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date,Chrome 129.0.0.0,User can't make appointment with a past date,,24-09-2024 23:06:42,24-09-2024 23:06:53,11.283s,FAILED
+"callTestCase(findTestCase(""Login/TC001_Login_With_Valid_Credential""), [:], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,24-09-2024 23:06:42,24-09-2024 23:06:50,7.669s,PASSED
+"selectOptionByValue(findTestObject(""Objek_Appointment/Page_CURA Healthcare Service/select_Facility""), facility, false)",Chrome 129.0.0.0,,,24-09-2024 23:06:50,24-09-2024 23:06:50,0.513s,PASSED
+"if (readmission.equals(""yes""))",Chrome 129.0.0.0,,,24-09-2024 23:06:50,24-09-2024 23:06:51,0.272s,PASSED
+"if (program.equals(""Medicaid""))",Chrome 129.0.0.0,,,24-09-2024 23:06:51,24-09-2024 23:06:51,0.262s,PASSED
+"setText(findTestObject(""Objek_Appointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), past_date)",Chrome 129.0.0.0,,,24-09-2024 23:06:51,24-09-2024 23:06:51,0.558s,PASSED
+"setText(findTestObject(""Objek_Appointment/Page_CURA Healthcare Service/textarea_Comment_comment""), notes)",Chrome 129.0.0.0,,,24-09-2024 23:06:51,24-09-2024 23:06:52,0.752s,PASSED
+"click(findTestObject(""Object Repository/Objek_Appointment/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 129.0.0.0,,,24-09-2024 23:06:52,24-09-2024 23:06:53,0.521s,PASSED
+"isConfirmationPresent = verifyElementPresent(findTestObject(""Objek_Appointment/Page_CURA Healthcare Service/h2_Appointment Confirmation""), 10)",Chrome 129.0.0.0,,,24-09-2024 23:06:53,24-09-2024 23:06:53,0.260s,PASSED
+takeScreenshot(),Chrome 129.0.0.0,,,24-09-2024 23:06:53,24-09-2024 23:06:53,0.341s,PASSED
+if (isConfirmationPresent),Chrome 129.0.0.0,,,24-09-2024 23:06:53,24-09-2024 23:06:53,0.011s,FAILED

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+History,Chrome 129.0.0.0,,,24-09-2024 23:07:06,24-09-2024 23:07:54,48.464s,FAILED
+,,,,,,,
+Test Cases/History/TC008_History_After_Booking,Chrome 129.0.0.0,User can check history appointment,,24-09-2024 23:07:06,24-09-2024 23:07:22,15.885s,PASSED
+"callTestCase(findTestCase(""Make_Appointment/TC006_Appointment_Success""), [""facility"":""Seoul CURA Healthcare Center"", ""readmission"":""yes"", ""program"":""Medicaid"", ""visit_date"":""28/09/24"", ""past_date"":""01/01/22"", ... ], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,24-09-2024 23:07:06,24-09-2024 23:07:18,12.021s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 129.0.0.0,,,24-09-2024 23:07:18,24-09-2024 23:07:19,0.268s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_History""))",Chrome 129.0.0.0,,,24-09-2024 23:07:19,24-09-2024 23:07:21,2.481s,PASSED
+takeScreenshot(),Chrome 129.0.0.0,,,24-09-2024 23:07:21,24-09-2024 23:07:22,0.590s,PASSED
+"isAppointmentPresent = verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Seoul CURA Healthcare Center""), 10)",Chrome 129.0.0.0,,,24-09-2024 23:07:22,24-09-2024 23:07:22,0.245s,PASSED
+if (isAppointmentPresent),Chrome 129.0.0.0,,,24-09-2024 23:07:22,24-09-2024 23:07:22,0.003s,PASSED
+,,,,,,,
+Test Cases/History/TC009_Check_History_After_Logout,Chrome 129.0.0.0,User can check history appointment,,24-09-2024 23:07:22,24-09-2024 23:07:54,32.443s,FAILED
+"callTestCase(findTestCase(""Make_Appointment/TC006_Appointment_Success""), [""facility"":""Seoul CURA Healthcare Center"", ""readmission"":""yes"", ""program"":""Medicaid"", ""visit_date"":""28/09/24"", ""past_date"":""01/01/22"", ... ], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,24-09-2024 23:07:22,24-09-2024 23:07:33,10.992s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 129.0.0.0,,,24-09-2024 23:07:33,24-09-2024 23:07:33,0.267s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Logout""))",Chrome 129.0.0.0,,,24-09-2024 23:07:33,24-09-2024 23:07:35,1.481s,PASSED
+"callTestCase(findTestCase(""Login/TC001_Login_With_Valid_Credential""), [:], STOP_ON_FAILURE)",Chrome 129.0.0.0,,,24-09-2024 23:07:35,24-09-2024 23:07:42,7.379s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 129.0.0.0,,,24-09-2024 23:07:42,24-09-2024 23:07:43,0.268s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_History""))",Chrome 129.0.0.0,,,24-09-2024 23:07:43,24-09-2024 23:07:43,0.544s,PASSED
+"isAppointmentPresent = verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Seoul CURA Healthcare Center""), 10)",Chrome 129.0.0.0,,,24-09-2024 23:07:43,24-09-2024 23:07:54,11.433s,FAILED

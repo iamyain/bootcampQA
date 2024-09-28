@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Make_Appointment" time="28.725" tests="2" failures="1" errors="0">
+   <testsuite name="Make_Appointment" tests="2" failures="1" errors="0" time="28.725" skipped="0" timestamp="28-09-2024T16:39:46" hostname="user - Zain" id="Test Suites/Make_Appointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240928_163837\\Make_Appointment\\20240928_163840"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240928_163837\\Make_Appointment\\20240928_163840\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240928_163837\\Make_Appointment\\20240928_163840\\1727516397457.png, C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240928_163837\\Make_Appointment\\20240928_163840\\1727516401753.png, C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240928_163837\\Make_Appointment\\20240928_163840\\1727516410028.png, C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240928_163837\\Make_Appointment\\20240928_163840\\1727516414640.png"/>
+         <property name="hostName" value="user - Zain"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.9.16"/>
+         <property name="sessionId" value="be137964b20bd1eb395a0b01faf0332d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Make_Appointment/TC006_Appointment_Success" time="15.675" classname="Test Cases/Make_Appointment/TC006_Appointment_Success" status="PASSED">
+         <system-out><![CDATA[28-09-2024T16:39:46 - [TEST_CASE][PASSED] - Test Cases/Make_Appointment/TC006_Appointment_Success: Test Cases/Make_Appointment/TC006_Appointment_Success
+
+28-09-2024T16:39:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC001_Login_With_Valid_Credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC001_Login_With_Valid_Credential' successfully
+
+28-09-2024T16:39:46 - [TEST_CASE][PASSED] - Test Cases/Login/TC001_Login_With_Valid_Credential: Test Cases/Login/TC001_Login_With_Valid_Credential
+
+28-09-2024T16:39:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-09-2024T16:39:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-09-2024T16:39:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-09-2024T16:39:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-09-2024T16:39:48 - [TEST_STEP][PASSED] - setViewPortSize(1480, 1000): Viewport is set to new size with width = 1480 and height = 1000
+
+28-09-2024T16:39:48 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1480 and height = 1000
+
+28-09-2024T16:39:48 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-09-2024T16:39:53 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-09-2024T16:39:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/a_Make Appointment")): Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+28-09-2024T16:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+28-09-2024T16:39:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Username_username"), findTestData("Test Data Login").getValue(1, 1)): Text 'John Doe' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+28-09-2024T16:39:55 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+28-09-2024T16:39:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Password_password"), findTestData("Test Data Login").getValue(2, 1)): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+28-09-2024T16:39:55 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+28-09-2024T16:39:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/button_Login")): Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+28-09-2024T16:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+28-09-2024T16:39:56 - [TEST_STEP][PASSED] - appointmentAppears = verifyElementPresent(findTestObject("Object Repository/Objek_Login/h2_Make Appointment"), 0): Object 'Object Repository/Objek_Login/h2_Make Appointment' is present
+
+28-09-2024T16:39:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-09-2024T16:39:57 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Login/h2_Make Appointment' is present
+
+28-09-2024T16:39:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+28-09-2024T16:39:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240928_163837\\Make_Appointment\\20240928_163840\\1727516397457.png]]
+
+28-09-2024T16:39:57 - [TEST_STEP][PASSED] - if (appointmentAppears): Login berhasil, melanjutkan ke proses appointment.
+
+28-09-2024T16:39:57 - [TEST_STEP][PASSED] - comment("Login berhasil, melanjutkan ke proses appointment."): Login berhasil, melanjutkan ke proses appointment.
+
+28-09-2024T16:39:57 - [MESSAGE][INFO] - Login berhasil, melanjutkan ke proses appointment.
+
+28-09-2024T16:39:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC001_Login_With_Valid_Credential' successfully
+
+28-09-2024T16:39:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Objek_Appointment/Page_CURA Healthcare Service/select_Facility"), facility, false): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/select_Facility' 
+
+28-09-2024T16:39:58 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/select_Facility' 
+
+28-09-2024T16:39:58 - [TEST_STEP][PASSED] - if (readmission.equals("yes")): Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/label_Apply for hospital readmission' is checked
+
+28-09-2024T16:39:58 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Objek_Appointment/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/label_Apply for hospital readmission' is checked
+
+28-09-2024T16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/label_Apply for hospital readmission' is checked
+
+28-09-2024T16:39:58 - [TEST_STEP][PASSED] - if (program.equals("Medicaid")): Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/radio_program_medicaid' is checked
+
+28-09-2024T16:39:58 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Objek_Appointment/Page_CURA Healthcare Service/radio_program_medicaid")): Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/radio_program_medicaid' is checked
+
+28-09-2024T16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/radio_program_medicaid' is checked
+
+28-09-2024T16:39:58 - [TEST_STEP][PASSED] - setText(findTestObject("Objek_Appointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"), visit_date): Text '28/09/24' is set on object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'
+
+28-09-2024T16:39:59 - [MESSAGE][PASSED] - Text '28/09/24' is set on object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'
+
+28-09-2024T16:39:59 - [TEST_STEP][PASSED] - setText(findTestObject("Objek_Appointment/Page_CURA Healthcare Service/textarea_Comment_comment"), notes): Text 'sakit' is set on object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+28-09-2024T16:40:00 - [MESSAGE][PASSED] - Text 'sakit' is set on object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+28-09-2024T16:40:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Appointment/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+28-09-2024T16:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+28-09-2024T16:40:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Objek_Appointment/Page_CURA Healthcare Service/h2_Appointment Confirmation"), 10): Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/h2_Appointment Confirmation' is present
+
+28-09-2024T16:40:01 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/h2_Appointment Confirmation' is present
+
+28-09-2024T16:40:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+28-09-2024T16:40:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240928_163837\\Make_Appointment\\20240928_163840\\1727516401753.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date" time="12.905" classname="Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date FAILED.&#xa;Reason:&#xa;java.lang.AssertionError: Test failed: Seharusnya pengguna tidak dapat melakukan booking pada tanggal di masa lalu.. Expression: false&#xa;	at TC007_Appointment_With_A_Past_Date.run(TC007_Appointment_With_A_Past_Date:50)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1727516320988.run(TempTestSuite1727516320988.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[28-09-2024T16:40:01 - [TEST_CASE][FAILED] - Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date: Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date FAILED.
+Reason:
+java.lang.AssertionError: Test failed: Seharusnya pengguna tidak dapat melakukan booking pada tanggal di masa lalu.. Expression: false
+	at TC007_Appointment_With_A_Past_Date.run(TC007_Appointment_With_A_Past_Date:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727516320988.run(TempTestSuite1727516320988.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+28-09-2024T16:40:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TC001_Login_With_Valid_Credential"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/TC001_Login_With_Valid_Credential' successfully
+
+28-09-2024T16:40:02 - [TEST_CASE][PASSED] - Test Cases/Login/TC001_Login_With_Valid_Credential: Test Cases/Login/TC001_Login_With_Valid_Credential
+
+28-09-2024T16:40:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-09-2024T16:40:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-09-2024T16:40:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-09-2024T16:40:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-09-2024T16:40:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-09-2024T16:40:02 - [TEST_STEP][PASSED] - setViewPortSize(1480, 1000): Viewport is set to new size with width = 1480 and height = 1000
+
+28-09-2024T16:40:03 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1480 and height = 1000
+
+28-09-2024T16:40:03 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-09-2024T16:40:06 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-09-2024T16:40:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/a_Make Appointment")): Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+28-09-2024T16:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/a_Make Appointment' is clicked on
+
+28-09-2024T16:40:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Username_username"), findTestData("Test Data Login").getValue(1, 1)): Text 'John Doe' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+28-09-2024T16:40:08 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Objek_Login/input_Username_username'
+
+28-09-2024T16:40:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Objek_Login/input_Password_password"), findTestData("Test Data Login").getValue(2, 1)): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+28-09-2024T16:40:08 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Objek_Login/input_Password_password'
+
+28-09-2024T16:40:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Login/button_Login")): Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+28-09-2024T16:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Login/button_Login' is clicked on
+
+28-09-2024T16:40:09 - [TEST_STEP][PASSED] - appointmentAppears = verifyElementPresent(findTestObject("Object Repository/Objek_Login/h2_Make Appointment"), 0): Object 'Object Repository/Objek_Login/h2_Make Appointment' is present
+
+28-09-2024T16:40:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-09-2024T16:40:09 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Login/h2_Make Appointment' is present
+
+28-09-2024T16:40:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+28-09-2024T16:40:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240928_163837\\Make_Appointment\\20240928_163840\\1727516410028.png]]
+
+28-09-2024T16:40:10 - [TEST_STEP][PASSED] - if (appointmentAppears): Login berhasil, melanjutkan ke proses appointment.
+
+28-09-2024T16:40:10 - [TEST_STEP][PASSED] - comment("Login berhasil, melanjutkan ke proses appointment."): Login berhasil, melanjutkan ke proses appointment.
+
+28-09-2024T16:40:10 - [MESSAGE][INFO] - Login berhasil, melanjutkan ke proses appointment.
+
+28-09-2024T16:40:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TC001_Login_With_Valid_Credential' successfully
+
+28-09-2024T16:40:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Objek_Appointment/Page_CURA Healthcare Service/select_Facility"), facility, false): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/select_Facility' 
+
+28-09-2024T16:40:10 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/select_Facility' 
+
+28-09-2024T16:40:10 - [TEST_STEP][PASSED] - if (readmission.equals("yes")): Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/label_Apply for hospital readmission' is checked
+
+28-09-2024T16:40:10 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Objek_Appointment/Page_CURA Healthcare Service/label_Apply for hospital readmission")): Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/label_Apply for hospital readmission' is checked
+
+28-09-2024T16:40:10 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/label_Apply for hospital readmission' is checked
+
+28-09-2024T16:40:10 - [TEST_STEP][PASSED] - if (program.equals("Medicaid")): Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/radio_program_medicaid' is checked
+
+28-09-2024T16:40:10 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/Objek_Appointment/Page_CURA Healthcare Service/radio_program_medicaid")): Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/radio_program_medicaid' is checked
+
+28-09-2024T16:40:11 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/radio_program_medicaid' is checked
+
+28-09-2024T16:40:11 - [TEST_STEP][PASSED] - setText(findTestObject("Objek_Appointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"), past_date): Text '01/01/22' is set on object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'
+
+28-09-2024T16:40:11 - [MESSAGE][PASSED] - Text '01/01/22' is set on object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'
+
+28-09-2024T16:40:11 - [TEST_STEP][PASSED] - setText(findTestObject("Objek_Appointment/Page_CURA Healthcare Service/textarea_Comment_comment"), notes): Text 'sakit' is set on object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+28-09-2024T16:40:12 - [MESSAGE][PASSED] - Text 'sakit' is set on object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+28-09-2024T16:40:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Objek_Appointment/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+28-09-2024T16:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+28-09-2024T16:40:14 - [TEST_STEP][PASSED] - isConfirmationPresent = verifyElementPresent(findTestObject("Objek_Appointment/Page_CURA Healthcare Service/h2_Appointment Confirmation"), 10): Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/h2_Appointment Confirmation' is present
+
+28-09-2024T16:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/Objek_Appointment/Page_CURA Healthcare Service/h2_Appointment Confirmation' is present
+
+28-09-2024T16:40:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+28-09-2024T16:40:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\berijalan_bootcamp_batch_11\\Reports\\20240928_163837\\Make_Appointment\\20240928_163840\\1727516414640.png]]
+
+28-09-2024T16:40:14 - [TEST_STEP][FAILED] - if (isConfirmationPresent): Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date FAILED.
+Reason:
+java.lang.AssertionError: Test failed: Seharusnya pengguna tidak dapat melakukan booking pada tanggal di masa lalu.. Expression: false
+	at TC007_Appointment_With_A_Past_Date.run(TC007_Appointment_With_A_Past_Date:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727516320988.run(TempTestSuite1727516320988.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+28-09-2024T16:40:14 - [TEST_STEP][PASSED] - comment("Test failed: Seharusnya pengguna tidak dapat melakukan booking pada tanggal di masa lalu."): Test failed: Seharusnya pengguna tidak dapat melakukan booking pada tanggal di masa lalu.
+
+28-09-2024T16:40:14 - [MESSAGE][INFO] - Test failed: Seharusnya pengguna tidak dapat melakukan booking pada tanggal di masa lalu.
+
+28-09-2024T16:40:14 - [TEST_STEP][FAILED] - assert false : "Test failed: Seharusnya pengguna tidak dapat melakukan booking pada tanggal di masa lalu.": Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date FAILED.
+Reason:
+java.lang.AssertionError: Test failed: Seharusnya pengguna tidak dapat melakukan booking pada tanggal di masa lalu.. Expression: false
+	at TC007_Appointment_With_A_Past_Date.run(TC007_Appointment_With_A_Past_Date:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727516320988.run(TempTestSuite1727516320988.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+28-09-2024T16:40:14 - [MESSAGE][FAILED] - Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date FAILED.
+Reason:
+java.lang.AssertionError: Test failed: Seharusnya pengguna tidak dapat melakukan booking pada tanggal di masa lalu.. Expression: false
+	at TC007_Appointment_With_A_Past_Date.run(TC007_Appointment_With_A_Past_Date:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727516320988.run(TempTestSuite1727516320988.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[28-09-2024T16:40:01 - [TEST_CASE][FAILED] - Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date: Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date FAILED.
+Reason:
+java.lang.AssertionError: Test failed: Seharusnya pengguna tidak dapat melakukan booking pada tanggal di masa lalu.. Expression: false
+	at TC007_Appointment_With_A_Past_Date.run(TC007_Appointment_With_A_Past_Date:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727516320988.run(TempTestSuite1727516320988.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-09-2024T16:39:46 - [TEST_SUITE][FAILED] - Make_Appointment: Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date FAILED.
+Reason:
+java.lang.AssertionError: Test failed: Seharusnya pengguna tidak dapat melakukan booking pada tanggal di masa lalu.. Expression: false
+	at TC007_Appointment_With_A_Past_Date.run(TC007_Appointment_With_A_Past_Date:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727516320988.run(TempTestSuite1727516320988.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[28-09-2024T16:39:46 - [TEST_SUITE][FAILED] - Make_Appointment: Test Cases/Make_Appointment/TC007_Appointment_With_A_Past_Date FAILED.
+Reason:
+java.lang.AssertionError: Test failed: Seharusnya pengguna tidak dapat melakukan booking pada tanggal di masa lalu.. Expression: false
+	at TC007_Appointment_With_A_Past_Date.run(TC007_Appointment_With_A_Past_Date:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727516320988.run(TempTestSuite1727516320988.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

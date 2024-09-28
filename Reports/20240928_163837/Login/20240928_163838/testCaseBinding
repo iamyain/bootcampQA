@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Login/TC001_Login_With_Valid_Credential","testCaseId":"Test Cases/Login/TC001_Login_With_Valid_Credential","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC002_Login_With_Invalid_Username","testCaseId":"Test Cases/Login/TC002_Login_With_Invalid_Username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC003_Login_With_Invalid_Password","testCaseId":"Test Cases/Login/TC003_Login_With_Invalid_Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC004_Login_With_Empty_Username","testCaseId":"Test Cases/Login/TC004_Login_With_Empty_Username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/TC005_Login_With_Empty_Password","testCaseId":"Test Cases/Login/TC005_Login_With_Empty_Password","iterationVariableName":""}
