@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can't login with invalid credential</description>
+   <name>TC002_Login_With_Invalid_Username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c54f07b5-b5a3-49c3-8759-d4c369aedb92</testCaseGuid>
+</TestCaseEntity>

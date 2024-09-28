@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can check history appointment</description>
+   <name>TC008_History_After_Booking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ca2ede52-f87c-40eb-bc62-1fd54e156771</testCaseGuid>
+</TestCaseEntity>
